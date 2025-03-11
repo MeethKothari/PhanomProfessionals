@@ -25,8 +25,8 @@ const HeroImage = () => {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <h1><span className={styles.text}>Let's innovation</span> meets your <br />excellence</h1>
-                <h2>Excellence refined, innovation ignited, the future <br />starts here</h2>
+                <h1 className=' text-4xl'><span className={styles.text}>Let's innovation</span> meets your <br />excellence</h1>
+                <h2 className=' text-2xl'>Excellence refined, innovation ignited, the future <br />starts here</h2>
                 <button className={styles.btn}>Book an Appointment</button>
             </div>
 

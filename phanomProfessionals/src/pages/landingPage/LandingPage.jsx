@@ -6,6 +6,7 @@ import PricingBanner from '../../components/PricingBanner/PricingBanner';
 import Footer from '../../components/Footer/Footer';
 import RotatingSection from '../../components/RotatingSection/RotatingSection';
 import ScrollSection from '../../components/ScrollSection/ScrollSection';
+import VideoTestimonials from '../../components/VideoTestimonials/VideoTestimonials';
 
 
 const LandingPage = () => {
@@ -16,6 +17,7 @@ const LandingPage = () => {
            <PricingBanner/>
            <RotatingSection />
            <ScrollSection />
+           <VideoTestimonials />
            <Footer />
         </div>
     )
