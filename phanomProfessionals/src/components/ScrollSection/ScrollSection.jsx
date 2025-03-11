@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ScrollSection.module.css';
 import icon1 from '../../assets/icon1.png';
-import icon2 from '../../assets/icon2.png'
+import icon2 from '../../assets/icon2.png';
 
 
 
