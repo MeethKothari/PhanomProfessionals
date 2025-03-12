@@ -22,7 +22,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon1}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Holistic Solutions</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Holistic Solutions</h3>
               <p>We provide end-to-end services that address all aspects of your needs, ensuring seamless integration and effective results.</p>
             </div>
           </div>
@@ -31,7 +31,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon2}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Client-Centric Approach</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Client-Centric Approach</h3>
               <p>Your goals and satisfaction are our top priorities, driving us to craft tailored solutions that align seamlessly with your vision and exceed expectations.</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon1}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Innovative Thinking</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Innovative Thinking</h3>
               <p>Our team is made up of highly skilled professionals with extensive experience & diverse expertise, guaranteeing  quality, innovative solutions, and outstanding results in every project we undertake.</p>
             </div>
           </div>
@@ -49,7 +49,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon2}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Expert Team</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Expert Team</h3>
               <p>Our team consists of highly skilled professionals with diverse expertise, dedicated to delivering the highest quality of work and consistently exceeding expectations.</p>
             </div>
           </div>
@@ -58,7 +58,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon1}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Cutting-Edge Technology</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Cutting-Edge Technology</h3>
               <p>We leverage the latest tools and technologies to stay ahead of industry trends and deliver modern solutions.</p>
             </div>
           </div>
@@ -67,7 +67,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon2}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Commitment to Excellence</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Commitment to Excellence</h3>
               <p>Our dedication to quality and continuous improvement ensures outstanding results and long-term client satisfaction.</p>
             </div>
           </div>
@@ -76,7 +76,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon1}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Customized Strategies</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Customized Strategies</h3>
               <p>We understand that every client is unique, so we design personalized strategies to meet specific goals and challenges.</p>
             </div>
           </div>
@@ -85,7 +85,7 @@ const ScrollSection = () => {
           <div className={styles.card}>
             <img src={icon2}/>
             <div>
-              <h3 className=' text-2xl mb-2 font-bold'>Sustainable Practices</h3>
+              <h3 className=' text-2xl mb-2 font-bold' style={{lineHeight: '1'}}>Sustainable Practices</h3>
               <p>We prioritize solutions that are not only effective but also environmentally and socially responsible.</p>
             </div>
           </div>
