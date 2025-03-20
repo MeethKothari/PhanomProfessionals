@@ -60,6 +60,17 @@
     opacity: 0;
 }
 
+.marquee {
+  display: flex; /* Ensures children are laid out in a row */
+  gap: 10px; /* Adds space between items */
+  justify-content: space-between;
+}
+
+.marquee img {
+  display: inline-block; /* Ensures they are inline */
+  margin-right: 200px;
+  justify-content: space-around;
+}
 
 
 @media (max-width: 768px){
@@ -81,3 +92,5 @@
     }
 
 }
+
+

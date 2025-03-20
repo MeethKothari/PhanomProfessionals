@@ -5,6 +5,7 @@ import heroImage2 from '../../assets/heroImage2.png';
 import heroImage3 from '../../assets/heroImage3.png';
 import heroImage4 from '../../assets/heroImage4.png';
 
+
 const HeroImage = () => {
     const images = [heroImage1, heroImage2, heroImage3, heroImage4];
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,6 +24,7 @@ const HeroImage = () => {
     }, []);
 
     return (
+        <>
         <div className={styles.container}>
             <div className={styles.content}>
                 <h1 className=' text-4xl'><span className={styles.text}>Let's innovation</span> meets your <br />excellence</h1>
@@ -38,6 +40,7 @@ const HeroImage = () => {
                 />
             </div>
         </div>
+        </>
     );
 }
 

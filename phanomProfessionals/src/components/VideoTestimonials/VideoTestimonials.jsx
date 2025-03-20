@@ -9,6 +9,7 @@ import person3 from '../../assets/person3.png';
 import person4 from '../../assets/person4.png';
 import play from '../../assets/play.png';
 import audio from '../../assets/audio.png';
+import testimonial1 from '../../assets/videos/testimonial1.mp4';
 
 const data = [
     { image: person1, name: "This Kumar", designation: "CEO, Street Smart 222" },
@@ -28,7 +29,7 @@ const VideoTestimonials = () => {
                 modules={[Autoplay]}
                 spaceBetween={20}
                 slidesPerView={3}
-                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                autoplay={{ delay: 2500, disableOnInteraction: true, pauseOnMouseEnter: true }}
                 loop={true}
                 breakpoints={{
                     320: { slidesPerView: 1 },
@@ -39,20 +40,19 @@ const VideoTestimonials = () => {
                 {data.map((item, index) => (
                     <SwiperSlide key={index} className={styles.slide}>
 
-                    {/* wrap it with (a tag) for moving out to another site if video is available  */}
-                        <div className={styles.card}>
-                            <img src={item.image} alt={item.name} className={styles.image} />
-                            <div className={styles.overlayPlayIcon}>
-                                <img src={play} alt="Play" className={styles.playIcon} />
-                            </div>
-                            <div className={styles.overlayAudioIcon}>
-                                <img src={audio} alt="audio" className={styles.audioIcon} />
-                            </div>
-                            <h3 className={styles.name}>{item.name}</h3>
-                            <p className={styles.designation}>{item.designation}</p>
+                    <div className={styles.card}>
+                        {/* <img src={item.image} alt={item.name} className={styles.image} />
+                        <div className={styles.overlayPlayIcon}>
+                            <img src={play} alt="Play" className={styles.playIcon} />
                         </div>
+                        <div className={styles.overlayAudioIcon}>
+                            <img src={audio} alt="audio" className={styles.audioIcon} />
+                        </div> */}
+                        <video src={testimonial1} className={styles.video} controls poster={item.image}/>
+                        <h3 className={styles.name}>{item.name}</h3>
+                        <p className={styles.designation}>{item.designation}</p>
+                    </div>
 
-                        
                     </SwiperSlide>
                 ))}
             </Swiper>

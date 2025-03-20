@@ -1,0 +1,58 @@
+.titleSpan{
+    background: linear-gradient(90deg, #429CE1 37.01%, #8F59E3 41.75%, #C91DE7 46.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   /* color: #C91DE7; */
+}
+
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    /* background-color: beige; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 40px;
+}
+
+.poster{}
+
+
+.category{
+    color: rgba(108, 95, 212, 1);
+}
+
+
+.title{
+    font-size: 20px;
+}
+
+
+.iconContainer{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.iconSpan{
+    display: flex;
+}
+
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+.content{}
+
+

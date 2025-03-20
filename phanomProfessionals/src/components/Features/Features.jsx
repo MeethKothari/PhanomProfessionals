@@ -63,8 +63,11 @@ const Features = () => {
     <>
         <div className={styles.container}>
 
+            {/* <div className={styles.semiCircle}></div> */}
+
 
             <h1 className={`text-4xl text-purple-700 font-mono w-[40%] ${styles.text}`}>Why choose us?</h1>
+
 
             <div className={styles.swiperContainer}>
                 <Swiper
