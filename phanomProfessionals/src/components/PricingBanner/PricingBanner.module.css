@@ -3,7 +3,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(270deg, rgba(67, 156, 225, 0.35) 1.22%, rgba(141, 89, 229, 0.35) 50.09%, rgba(200, 28, 230, 0.35) 98.96%);
+    background: linear-gradient(50deg, rgba(67, 156, 225, 0.35) , rgba(141, 89, 229, 0.35) , rgba(200, 28, 230, 0.35), rgba(67, 156, 225, 0.35));
+    background-size: 600% 600%;
+    animation: colors 4s ease-in-out infinite;
+}
+
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
 }
 
 

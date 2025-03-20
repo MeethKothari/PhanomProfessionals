@@ -11,11 +11,12 @@ import achievement5 from '../../assets/achievement5.png';
 const Achievements = () => {
     return (
         <>
-            <div className=" w-[100%] my-7 flex justify-center items-center">
+            <div className=" w-full my-7">
                 <Swiper
                     modules={[Autoplay]}
                     spaceBetween={30}
-                    slidesPerView={5}
+                    slidesPerView={"auto"}
+                    centeredSlides={5}
                     loop={true}
                     speed={4000}
                     autoplay={{ delay: 0, disableOnInteraction: true, pauseOnMouseEnter: true }}
@@ -24,13 +25,40 @@ const Achievements = () => {
                         640: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 }
                     }}
-                    // className="mx-auto"
+                    
                 >
-                    <SwiperSlide><img src={achievement1} alt='achievement' /></SwiperSlide>
-                    <SwiperSlide><img src={achievement2} alt='achievement' /></SwiperSlide>
-                    <SwiperSlide><img src={achievement3} alt='achievement' /></SwiperSlide>
-                    <SwiperSlide><img src={achievement4} alt='achievement' /></SwiperSlide>
-                    <SwiperSlide><img src={achievement5} alt='achievement' /></SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='flex justify-center items-center'>
+                            <img src={achievement1} alt="achievement"/>
+                        </div>
+                    </SwiperSlide>
+
+
+                    <SwiperSlide>
+                        <div className='flex justify-center items-center'>
+                            <img src={achievement2} alt="achievement"/>
+                        </div>
+                    </SwiperSlide>
+                    
+                    <SwiperSlide>
+                        <div className='flex justify-center items-center'>
+                            <img src={achievement3} alt="achievement"/>
+                        </div>
+                    </SwiperSlide>
+                    
+                    <SwiperSlide>
+                        <div className='flex justify-center items-center'>
+                            <img src={achievement4} alt="achievement"/>
+                        </div>
+                    </SwiperSlide>
+                    
+                    <SwiperSlide>
+                    <div className='flex justify-center items-center'>
+                            <img src={achievement5} alt="achievement"/>
+                        </div>
+                    </SwiperSlide>
+
                 </Swiper>
             </div>
         </>

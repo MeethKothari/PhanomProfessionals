@@ -9,8 +9,24 @@
 .container {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, rgba(110, 64, 189, 0.3) , rgba(67, 157, 224, 0.3), rgba(95, 4, 210, 0.3), rgba(206, 27, 230, 0.3));
+    background: linear-gradient(50deg, rgba(67, 156, 225, 0.35) , rgba(141, 89, 229, 0.35) , rgba(200, 28, 230, 0.35), rgba(67, 156, 225, 0.35));
+    background-size: 600% 600%;
+    animation: colors 4s ease-in-out infinite;
 }
+
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
 
 .heading {
     font-size: 32px;

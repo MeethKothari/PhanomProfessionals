@@ -90,6 +90,7 @@
         }
     
         .text{
+            margin-left: 0px;
             font-size: 30px;
             width: 100%;
             text-align: center;
